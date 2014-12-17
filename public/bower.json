@@ -1,0 +1,23 @@
+{
+  "name": "Cart",
+  "version": "0.0.0",
+  "authors": [
+    "banhtieu"
+  ],
+  "description": "This is a website for shopping",
+  "main": "index.html",
+  "keywords": [
+    "shopping",
+    "cart"
+  ],
+  "license": "MIT",
+  "homepage": "http://banhtieu.com",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "core-scroll-header-panel": "Polymer/core-scroll-header-panel#~0.5.2",
+    "core-toolbar": "Polymer/core-toolbar#~0.5.2",
+    "paper-button": "Polymer/paper-button#~0.5.2",
+    "paper-icon-button": "Polymer/paper-icon-button#~0.5.2"
+  }
+}

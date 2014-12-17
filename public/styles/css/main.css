@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+
+body /deep/ { height: 100%; font-family: Roboto Condensed, sans-serif; }
+body /deep/ paper-button { text-transform: none !important; }
+body /deep/ core-scroll-header-panel { height: 100%; }
+body /deep/ core-scroll-header-panel core-toolbar { background-color: #f15; color: #fff; }
+body /deep/ core-scroll-header-panel core-toolbar .logo { color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

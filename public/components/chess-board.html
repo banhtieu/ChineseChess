@@ -1,0 +1,18 @@
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+
+<polymer-element name="chess-board">
+    <link rel="stylesheet" href="../styles/css/chess.css" />
+    <template>
+        <div class="chess-board" on-click="{{ pieceClicked }}">
+            <template repeat="{{ piece in pieces }}">
+                <div class="piece" style="top: {{ piece.y * 25 }}px; left: {{ piece.x * 25}}px;">
+                    &nbsp;
+                </div>
+            </template>
+        </div>
+    </template>
+    <script src="../scripts/ChessBoard.js"></script>
+    <script>
+        Polymer(ChessBoard.prototype);
+    </script>
+</polymer-element>
